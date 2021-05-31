@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import RegisterContainer from '../src/containers/index'
+import RegisterContainer from './containers/RegisterContainer'
 
 function App() {
   return (

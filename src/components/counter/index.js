@@ -1,7 +1,7 @@
 import React from 'react';
 import * as root from '@material-ui/core/';
 
-const Register = ({handleIncrement, handleDecrement, currentValue, displayForm, changeDisplayFormStatus}) => {
+const Counter = ({handleIncrement, handleDecrement, currentValue, displayForm, changeDisplayFormStatus}) => {
      return (
              <div>
                 <div>{currentValue}</div>
@@ -21,4 +21,4 @@ const Register = ({handleIncrement, handleDecrement, currentValue, displayForm, 
 
 }
 
-export default Register;
+export default Counter;

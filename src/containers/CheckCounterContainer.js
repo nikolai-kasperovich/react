@@ -1,7 +1,7 @@
 import React from 'react';
-import Register from '../components/index'
+import Counter from '../components/counter'
 
-class RegisterContainer extends React.Component {
+class CheckCounterContainer extends React.Component {
 
     constructor(props) {
         super(props);
@@ -33,7 +33,7 @@ class RegisterContainer extends React.Component {
 
     render() {      
         return (
-            <Register
+            <Counter
                 handleIncrement = {this.handleIncrement}
                 handleDecrement = {this.handleDecrement}
                 currentValue = {this.state.currentValue}
@@ -44,4 +44,4 @@ class RegisterContainer extends React.Component {
 
 }
 
-export default RegisterContainer
+export default CheckCounterContainer
