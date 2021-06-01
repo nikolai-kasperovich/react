@@ -1,18 +1,17 @@
 import React from 'react';
-import Register from '../components/index'
+import Register from '../components/common'
 
 class RegisterContainer extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            currentValue : 0,
-            displayForm : false,
+            currentValue : 0
         }
         this.handleIncrement = this.handleIncrement.bind(this)
         this.handleDecrement = this.handleDecrement.bind(this)
-        this.changeDisplayFormStatus = this.changeDisplayFormStatus.bind(this)
     }
+
     handleIncrement() {
         this.setState({
             currentValue: this.state.currentValue + 1
@@ -25,13 +24,7 @@ class RegisterContainer extends React.Component {
         })
     }
 
-    changeDisplayFormStatus() {
-        this.setState({
-            displayForm: !this.state.displayForm,
-        })
-    }
-
-    render() {      
+    render() {
         return (
             <Register
                 handleIncrement = {this.handleIncrement}
