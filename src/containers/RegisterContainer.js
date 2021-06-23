@@ -1,17 +1,38 @@
-import React from 'react';
+import React from "react";
 import Register from "../components/register";
+import { Link } from "react-router-dom";
+import "../slyles/pages.css"
 
 class RegisterContainer extends React.Component {
+  render() {
+    const initialFormValues = {
+      email: "",
+      firstName: "",
+      secondName: "",
+    };
 
-    render() {
-        const initialFormValues = {
-            email: '',
-            firstName: '',
-            lastName: '',
-        }
-        return <Register initialFormValues={initialFormValues}/>;
-    }
+    const OnRegisterUser = (register) => {
+      console.log(register, "Params");
+    };
 
+    return (
+      <div>
+        <div className="flexMid">
+          <Register
+            initialFormValues={initialFormValues}
+            onRegister={OnRegisterUser}
+           />
+        </div>
+        <div className="flexMid">
+        <Link className="linkOne" to="/home">
+            Go home
+          </Link>
+        </div>
+      </div>
+      
+      
+    );
+  }
 }
 
-export default RegisterContainer
+export default RegisterContainer;

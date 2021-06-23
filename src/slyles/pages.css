@@ -1,0 +1,84 @@
+.top {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.flexMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.lblue {
+  color: lightblue;
+}
+
+.blue {
+  color: blue;
+}
+
+.violet {
+  color: violet;
+}
+
+.btnAws {
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.btnAwsGreen {
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: green;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+
+.focus {
+  margin-bottom: 2rem;
+}
+
+.nptFocus{
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid green;
+}
+
+.btnFocus {
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: green;
+}
+
+.parabola {
+  width: 30rem;
+  height: 30rem;
+}

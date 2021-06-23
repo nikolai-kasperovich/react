@@ -1,0 +1,10 @@
+.mainForm {
+  width: 25rem;
+}
+
+.linkOne {
+  text-decoration: none;
+  color: red;
+  padding-left: 7rem;
+  font-size: 2rem;
+}

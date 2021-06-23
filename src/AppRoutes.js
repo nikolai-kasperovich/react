@@ -1,0 +1,9 @@
+export const root = "/";
+export const register = "/register";
+export const checkCounter = "/counter";
+export const three = "/pageThree";
+export const four = "/pageFour";
+export const five = "/pageFive";
+export const six = "/pageSix";
+export const seven = "/pageSeven";
+export const home = "/home"
